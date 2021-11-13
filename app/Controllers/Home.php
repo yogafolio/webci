@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('pages/index');
+        echo view('templates/header');
+        echo view('templates/body');
+        echo view('templates/footer');
     }
 }
